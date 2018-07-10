@@ -1,0 +1,85 @@
+
+<!Doctype html>
+
+<head>
+    
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+    <header><h1>Sections </h1></header>
+
+    <script>
+        function expandPInfo(){
+            if (document.getElementById("personalInfo").style.display=="none") {
+                document.getElementById("personalInfo").style.display = "block";
+            } else {
+                document.getElementById("personalInfo").style.display = "none";
+            }
+        }
+        function expandSInfo(){
+            if (document.getElementById("schoolInfo").style.display=="none") {
+                document.getElementById("schoolInfo").style.display = "block";
+            } else {
+                document.getElementById("schoolInfo").style.display = "none";
+            }
+        }
+        function expandInterview(){
+            if (document.getElementById("interview").style.display=="none") {
+                document.getElementById("interview").style.display = "block";
+            } else {
+                document.getElementById("interview").style.display = "none";
+            }
+        }
+        function expandResume(){
+            if (document.getElementById("resume").style.display=="none") {
+                document.getElementById("resume").style.display = "block";
+            } else {
+                document.getElementById("resume").style.display = "none";
+            }
+        }
+    </script>
+    <ul>
+        <li><button onclick="expandPInfo()" class="button" >+</button> <a href="pInfo.html">Personal Info</a>
+            <div style="display:none" id="personalInfo">
+            <ol>
+                <li>Name</li>
+                <li>Date of Birth</li>
+                <li>Family</li>
+                <li>Addresses</li>
+                <li>Nationality</li>
+            </ol>
+            </div> 
+        </li>
+        
+        <li><button onclick="expandSInfo()" class="button" >+</button> <a href="sInfo.html">School Info</a>
+            <div style="display:none" id="schoolInfo">
+            <ol>
+                <li>School Name</li>
+                <li>Date of Graduation</li>
+                <li>School District</li>
+                <li>IB/AP</li>
+                <li>Teacher Recommendations</li>
+            </ol>
+            </div> 
+        </li>
+
+        <li><button onclick="expandInterview()" class="button" >+</button> <a href="interview.html">Interview </a>
+            <div style="display:none" id="interview">
+            <ol>
+                <li>Interviewer Information</li>
+                <li>Interview Reflection</li>
+            </ol>
+            </div> 
+        </li>
+
+        <li><button onclick="expandResume()" class="button" >+</button> <a href="resume.html">Resume</a> 
+            <div style="display:none" id="resume">
+            <ol>
+                <li>Resume Upload</li>
+            </ol>
+            </div> 
+        </li>
+    </ul>
+</body>
