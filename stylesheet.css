@@ -10,12 +10,10 @@
 }
 body {
   font-family: Georgia;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.25;
   padding: 0px;
   margin: 0px;
-  /* background-color: #DCDCDC; //#DCDCDC #ffb84d */
-  background-image: tech_tower.jpg;
 }
 /*Global*/
 .container{
@@ -45,10 +43,15 @@ h1 {
 ul {
     padding-top: 20px;
     font-size: 17px;    
+    list-style-type: none;
+    font-size: 20px;
+
 }
 
-#back {
+a, a:visited, a:hover {
     display: inline-block;
     font-size: 22px;
-    color: white;
+    color: black;
 }
+
+   
