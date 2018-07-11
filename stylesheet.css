@@ -46,3 +46,9 @@ ul {
     padding-top: 20px;
     font-size: 17px;    
 }
+
+#back {
+    display: inline-block;
+    font-size: 22px;
+    color: white;
+}

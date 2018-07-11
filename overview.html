@@ -39,6 +39,13 @@
                 document.getElementById("resume").style.display = "none";
             }
         }
+        function expandProjects(){
+            if (document.getElementById("projects").style.display=="none") {
+                document.getElementById("projects").style.display = "block";
+            } else {
+                document.getElementById("projects").style.display = "none";
+            }
+        }
     </script>
     <ul>
         <li><button onclick="expandPInfo()" class="button" >+</button> <a href="pInfo.html">Personal Info</a>
@@ -81,5 +88,17 @@
             </ol>
             </div> 
         </li>
+
+        <li><button onclick="expandProjects()" class="button" >+</button> <a href="projects.html">Projects</a>
+            <div style="display:none" id="projects">
+            <ol>
+                <li>Projects Upload</li>
+            </ol>
+            </div>
+        </li>
+        <br><br> 
+        <li><button class="button" >!</button> <a href="submitted.html">Submit!</a>
+        </li>
+
     </ul>
 </body>
