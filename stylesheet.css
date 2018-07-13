@@ -13,7 +13,8 @@ body {
   font-size: 20px;
   line-height: 1.25;
   padding: 0px;
-  margin: 0px;
+  margin: auto;
+ 
 }
 /*Global*/
 .container{
@@ -37,7 +38,34 @@ header {
 /*Body*/
 
 h1 {
-  padding: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+.appnow {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: auto;
+    width: 50%;
+    max-width: 300px;
+    
+}
+
+img {
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 ul {
